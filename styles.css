@@ -29,9 +29,11 @@ a{
     flex-flow: row wrap;
 }
 .container1{
+    background-color: rgb(0, 62, 90);
     justify-content: space-around;
 }
 .container2{
+    background-color: rgb(0, 47, 90);
     justify-content: center;
 }
 .item{
@@ -57,14 +59,17 @@ a{
     flex-flow: row nowrap;
     height: auto;
     width: auto;
-    margin: 10px;
+    margin: 2em;
+    flex: 0 1 auto;
 }
 .headerimg{
     height: 300px;
     width: 450px;
     border-radius: 25%;
 }
-.fish1{
+.fishimgs{
+    margin: 1em;
+    border-radius: 50%;
     height:200px;
     width:200px;
 }
