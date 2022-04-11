@@ -29,7 +29,6 @@ a{
     flex-flow: row wrap;
 }
 .container1{
-    background-color: rgb(0, 62, 90);
     justify-content: space-around;
 }
 .container2{
@@ -72,4 +71,12 @@ a{
     border-radius: 50%;
     height:200px;
     width:200px;
+}
+.quote{
+    width: 800px;
+    font-size: 28px;
+}
+.quote-name{
+    float: right;
+    font-size: 24px;
 }
