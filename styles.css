@@ -1,50 +1,70 @@
 * {
-    border: 1px solid red;
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 body{
-    background-color: black;
     color: white;
 }
-.flex-container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 20em;
+a{
+    margin: 15px;
 }
-
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+a{
+    font-size: larger;
+    font-weight: 600;
+}
 .logo{
     height: 100px;
     width: 100px;
 }
-
-ul.horizontal-list{
-    font-size: 18px;
-    list-style: none;
+.container, .container1, .container2{
+    background-color: rgb(0, 90, 86);
     display: flex;
-    align-items: center;
-    gap: 2em;
+    justify-content: space-between;
+    flex-flow: row wrap;
 }
-a:link {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #94f6ff;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: rgb(185, 255, 217);
-    text-decoration: none;
-  }
-  
-  /* selected link */
-  a:active {
-    color: white;
-    text-decoration: none;
-  }
+.container1{
+    justify-content: space-around;
+}
+.container2{
+    justify-content: center;
+}
+.item{
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    flex-flow: row nowrap;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+.headerimg{
+    height: 300px;
+    width: 450px;
+    border-radius: 25%;
+}
+.fish1{
+    height:200px;
+    width:200px;
+}
