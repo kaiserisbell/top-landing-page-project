@@ -1,0 +1,50 @@
+* {
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20em;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+ul.horizontal-list{
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #94f6ff;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(185, 255, 217);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
